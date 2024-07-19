@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milk Delivery Farm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-page" class="form-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            
+            <button type="submit">Login</button>
+            <button type="button" id="forgot-password">Forgot Password</button>
+            <button type="button" id="new-user">New User</button>
+        </form>
+    </div>
+
+    <div id="register-page" class="form-container hidden">
+        <h2>Register</h2>
+        <form id="register-form">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" required>
+            
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" required>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required>
+            
+            <label for="register-email">Email ID:</label>
+            <input type="email" id="register-email" required>
+            
+            <label for="aadhar">Aadhar Card Number:</label>
+            <input type="text" id="aadhar" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" required>
+            
+            <label for="register-password">Create Password:</label>
+            <input type="password" id="register-password" required>
+            
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
